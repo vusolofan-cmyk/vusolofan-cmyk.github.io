@@ -19,7 +19,7 @@
   <main>
     <h2>Was die Funktion macht</h2>
     <p>Robo kann auf ausdrücklichen Befehl eine kurze Notiz in ein eigens für Robo angelegtes Google-Dokument schreiben. Das Dokument hat die Bereiche Einkaufsliste, Erinnerungen und Notizen. Ein Eintrag unter „Erinnerungen“ löst für sich allein keine Benachrichtigung aus.</p>
-    <p>Robo bereitet außerdem einen eigenen Google-Kalender für ausdrücklich bestätigte Termine und jährlich wiederkehrende Geburtstage vor. Ein Termin ohne Endzeit wird zunächst mit 60 Minuten vorgeschlagen. Eine aktive Erinnerung durch Robo wird gesondert entwickelt und ist noch nicht eingeschaltet.</p>
+    <p>Robo verwendet einen eigenen Google-Kalender für ausdrücklich bestätigte Termine und jährlich wiederkehrende Geburtstage. Ein Termin ohne Endzeit wird zunächst mit 60 Minuten vorgeschlagen. Ein aktivierter Pi-Timer prüft Geburtstage täglich ab 09:00 Uhr Berliner Zeit und meldet sie am Vortag und am Geburtstag im Systemjournal. Sprachausgabe ist noch nicht aktiv.</p>
     <h2>Google-Zugriff</h2>
     <p>Für Notizen nutzt Robo <code>drive.file</code>. Damit kann die Funktion Dateien verwenden, die mit dieser Anwendung angelegt oder für sie freigegeben wurden. Für den eigenen Kalender nutzt Robo getrennt <code>calendar.app.created</code>: Damit kann die App sekundäre Kalender anlegen und Termine darin lesen und verwalten. Robos Programm verwendet nur die gespeicherte Kennung seines neu angelegten Kalenders.</p>
     <p class="note">Diese Infoseite enthält keine persönlichen Notizen, Zugangsdaten oder Inhalte des privaten Robo-Projekts.</p>
@@ -28,3 +28,4 @@
   <footer>Robo · Privates Projekt</footer>
 </body>
 </html>
+
